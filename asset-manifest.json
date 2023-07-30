@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-vue.js-hw/static/css/main.7acaea2f.css",
+    "main.js": "/goit-vue.js-hw/static/js/main.07d3183d.js",
+    "index.html": "/goit-vue.js-hw/index.html",
+    "main.7acaea2f.css.map": "/goit-vue.js-hw/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/goit-vue.js-hw/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
