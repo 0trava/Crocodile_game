@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/goit-vue.js-hw/static/css/main.fa76fed9.css",
-    "main.js": "/goit-vue.js-hw/static/js/main.347cac2b.js",
+    "main.css": "/goit-vue.js-hw/static/css/main.ec6970f9.css",
+    "main.js": "/goit-vue.js-hw/static/js/main.78039747.js",
     "index.html": "/goit-vue.js-hw/index.html",
-    "main.fa76fed9.css.map": "/goit-vue.js-hw/static/css/main.fa76fed9.css.map",
-    "main.347cac2b.js.map": "/goit-vue.js-hw/static/js/main.347cac2b.js.map"
+    "main.ec6970f9.css.map": "/goit-vue.js-hw/static/css/main.ec6970f9.css.map",
+    "main.78039747.js.map": "/goit-vue.js-hw/static/js/main.78039747.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa76fed9.css",
-    "static/js/main.347cac2b.js"
+    "static/css/main.ec6970f9.css",
+    "static/js/main.78039747.js"
   ]
 }
