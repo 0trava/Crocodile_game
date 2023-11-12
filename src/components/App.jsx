@@ -17,6 +17,12 @@ export const App = () => {
     <div className={style.container}>
       <h1>Crocodile</h1>
 
+      <div className={style.btn_box}>
+        <button className={style.btn}>Animal</button>
+        <button className={style.btn}>Fruits</button>
+        <button className={style.btn}>Jobs</button>
+      </div>
+
 
         
 
