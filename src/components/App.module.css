@@ -72,6 +72,14 @@ h1 {
   } 
 
 
+  .title_card {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-size: 3rem;
+  }
+
+
 
   /* Style for btn_box */
   .btn_box {
@@ -93,6 +101,39 @@ h1 {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: color;
+  }
+
+  .btn_active {
+    font-size: 18px;
+    color: black;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    pointer-events: none;
+  }
+
+  .btn_active:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+    width: 100%;
+    left: 0%;
+    
   }
   
   .btn:focus,

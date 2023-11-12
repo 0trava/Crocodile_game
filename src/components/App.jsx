@@ -5,12 +5,17 @@ import crocodileImage from '../kisspng-crocodile-clip-clip-art-alligator-png-ima
 
 export const App = () => {
   const [randomCard, setRandomCard] = useState(null);
+  const [category, setСategory] = useState(card.jobs);
 
   const pickRandomCard = () => {
-    const randomIndex = Math.floor(Math.random() * card.images.length);
-    const selectedCard = card.images[randomIndex];
+    const randomIndex = Math.floor(Math.random() * category.length);
+    const selectedCard = category[randomIndex];
     setRandomCard(selectedCard);
   };
+
+  const changeCategory = (e) => {
+    e.preventDefault();
+  }
 
 
   return (
@@ -18,9 +23,18 @@ export const App = () => {
       <h1>Crocodile</h1>
 
       <div className={style.btn_box}>
-        <button className={style.btn}>Animal</button>
-        <button className={style.btn}>Fruits</button>
-        <button className={style.btn}>Jobs</button>
+        {category !== card.jobs ? 
+        <button onClick={changeCategory} className={style.btn}>Jobs</button>
+        : <button onClick={changeCategory} className={style.btn_active}>Jobs</button>}
+
+        {category !== card.fruits ? 
+        <button onClick={changeCategory} className={style.btn}>Fruits</button>
+        : <button onClick={changeCategory} className={style.btn_active}>Fruits</button>}
+
+        {category !== card.animal ? 
+        <button onClick={changeCategory} className={style.btn}>Animal</button>
+        : <button onClick={changeCategory} className={style.btn_active}>Animal</button>}
+
       </div>
 
 
@@ -28,6 +42,9 @@ export const App = () => {
 
 
        <div className={style.card}>
+          {category === card.jobs && <h3 className={style.title_card}>Jobs</h3>}
+
+
           {randomCard && (
           <img src={randomCard} alt="card" />
           )}
