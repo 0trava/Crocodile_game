@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/goit-vue.js-hw/static/css/main.ec6970f9.css",
+    "main.css": "/goit-vue.js-hw/static/css/main.94f36eb8.css",
     "main.js": "/goit-vue.js-hw/static/js/main.78039747.js",
     "index.html": "/goit-vue.js-hw/index.html",
-    "main.ec6970f9.css.map": "/goit-vue.js-hw/static/css/main.ec6970f9.css.map",
+    "main.94f36eb8.css.map": "/goit-vue.js-hw/static/css/main.94f36eb8.css.map",
     "main.78039747.js.map": "/goit-vue.js-hw/static/js/main.78039747.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec6970f9.css",
+    "static/css/main.94f36eb8.css",
     "static/js/main.78039747.js"
   ]
 }
