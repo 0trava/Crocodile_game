@@ -84,12 +84,16 @@ h1 {
   /* Style for btn_box */
   .btn_box {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
     gap: 30px;
+    flex-wrap: wrap;
 
   }
 
   .btn {
-    font-size: 18px;
+    font-size: 4vw;
     color: #e1e1e1;
     font-family: inherit;
     font-weight: 800;
@@ -104,7 +108,7 @@ h1 {
   }
 
   .btn_active {
-    font-size: 18px;
+    font-size: 4vw;
     color: black;
     font-family: inherit;
     font-weight: 800;
