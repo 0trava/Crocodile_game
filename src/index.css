@@ -7,10 +7,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(https://img.freepik.com/free-photo/bright-yellow-and-blue-in-gradient_23-2147734162.jpg?w=740&t=st=1699800406~exp=1699801006~hmac=02560b2cffdd80e06b943e57f3bd62d8c463a321485205de4554d124c85a6584);
+  background-image: url(https://img.freepik.com/free-photo/gradient-blue-abstract-background-smooth-dark-blue-with-black-vignette-studio_1258-67810.jpg?t=st=1699807097~exp=1699807697~hmac=4ad1b81133293c5df50d9ffa6739de8e00a1f3ed6bef9465e8d1a6a11e032c2a);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 180vh;
 }
 
 code {
