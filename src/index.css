@@ -7,10 +7,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(https://img.freepik.com/free-photo/gradient-blue-abstract-background-smooth-dark-blue-with-black-vignette-studio_1258-67810.jpg?t=st=1699807097~exp=1699807697~hmac=4ad1b81133293c5df50d9ffa6739de8e00a1f3ed6bef9465e8d1a6a11e032c2a);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 180vh;
+  background: linear-gradient(45deg, rgb(116, 167, 48) 2%, rgb(0, 58, 0));
+  /* background-image: url(https://us.123rf.com/450wm/themyro/themyro2307/themyro230700331/208786706-hand-drawing-cute-crocodile-seamless-pattern-illustration-for-baby-room-nursery-illustration-design.jpg?ver=6);
+  background-repeat: repeat;
+  background-position: center; */
+  /* background-size: 180vh; */
+  height: 100vh;
+  
 }
 
 code {

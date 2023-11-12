@@ -1,7 +1,7 @@
 
 
 .container {
-    margin: 60px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,9 +11,18 @@
 h1 {
     z-index: 1;
     color: rgb(255, 255, 255);
-    font-size: 6em;
-    text-transform: ;
+    font-size: 10vw;
+    margin: 0;
 
+}
+
+
+.image {
+    position: absolute;
+    width: 40vw;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
 
 .card {
