@@ -6,12 +6,12 @@ export const App = () => {
 
 
   return (
-    <div>
+    <div className={style.container}>
       <h1>Crocodile</h1>
        
 
 
-       <div className={style.card_box}>
+       <div className={style.card}>
           <img src={card.images[0]} alt="card" />
        </div>
     </div>
