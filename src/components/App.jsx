@@ -5,7 +5,7 @@ import crocodileImage from '../kisspng-crocodile-clip-clip-art-alligator-png-ima
 
 export const App = () => {
   const [randomCard, setRandomCard] = useState(null);
-  const [category, setСategory] = useState(card.jobs);
+  const [category, changeCategory] = useState(card.jobs);
 
   const pickRandomCard = () => {
     const randomIndex = Math.floor(Math.random() * category.length);
@@ -13,9 +13,11 @@ export const App = () => {
     setRandomCard(selectedCard);
   };
 
-  const changeCategory = (e) => {
-    e.preventDefault();
-  }
+  // const changeCategory = (e) => {
+
+  //   console.log(e)
+  //   e.preventDefault();
+  // }
 
 
   return (
@@ -24,16 +26,16 @@ export const App = () => {
 
       <div className={style.btn_box}>
         {category !== card.jobs ? 
-        <button onClick={changeCategory} className={style.btn}>Jobs</button>
-        : <button onClick={changeCategory} className={style.btn_active}>Jobs</button>}
+        <button onClick={() => changeCategory(card.jobs)} className={style.btn} id="jobs">Jobs</button>
+        : <button onClick={() => changeCategory(card.jobs)} className={style.btn_active} id="jobs">Jobs</button>}
 
         {category !== card.fruits ? 
-        <button onClick={changeCategory} className={style.btn}>Fruits</button>
-        : <button onClick={changeCategory} className={style.btn_active}>Fruits</button>}
+        <button onClick={() => changeCategory(card.fruits)} className={style.btn} id="fruits">Fruits</button>
+        : <button onClick={() => changeCategory(card.fruits)} className={style.btn_active} id="fruits">Fruits</button>}
 
         {category !== card.animal ? 
-        <button onClick={changeCategory} className={style.btn}>Animal</button>
-        : <button onClick={changeCategory} className={style.btn_active}>Animal</button>}
+        <button onClick={() => changeCategory(card.animal)} className={style.btn} id="animal">Animal</button>
+        : <button onClick={() => changeCategory(card.animal)} className={style.btn_active} id="animal">Animal</button>}
 
       </div>
 
@@ -43,7 +45,8 @@ export const App = () => {
 
        <div className={style.card}>
           {category === card.jobs && <h3 className={style.title_card}>Jobs</h3>}
-
+          {category === card.animal && <h3 className={style.title_card}>Animal</h3>}
+          {category === card.fruits && <h3 className={style.title_card}>Fruits</h3>}
 
           {randomCard && (
           <img src={randomCard} alt="card" />
@@ -51,7 +54,7 @@ export const App = () => {
        </div>
 
        <button onClick={pickRandomCard}>
-        <span class={style.text}>Lets go...</span>
+        <span className={style.text}>Lets go...</span>
       </button>
 
 
