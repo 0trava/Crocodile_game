@@ -7,6 +7,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://img.freepik.com/free-photo/3d-mountain-landscape-at-sunset_1048-9753.jpg?w=740&t=st=1699799261~exp=1699799861~hmac=1cc9304a3c1ee4d7b488b8af87e7477ca73dd3c1f9b5fd11eea7b12c49c93157);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130vh;
 }
 
 code {
