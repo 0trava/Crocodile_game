@@ -92,7 +92,7 @@ h1 {
 
   }
 
-  .btn {
+  /* .btn {
     font-size: 4vw;
     color: #e1e1e1;
     font-family: inherit;
@@ -105,7 +105,7 @@ h1 {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: color;
-  }
+  } */
 
   .btn_active {
     font-size: 4vw;
