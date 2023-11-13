@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Crocodile_game/static/css/main.f8bf7fa2.css",
-    "main.js": "/Crocodile_game/static/js/main.8202a6ad.js",
+    "main.css": "/Crocodile_game/static/css/main.a15b33ae.css",
+    "main.js": "/Crocodile_game/static/js/main.d23029d5.js",
     "static/media/kisspng-crocodile-clip-clip-art-alligator-png-image-5a719dac969735.png": "/Crocodile_game/static/media/kisspng-crocodile-clip-clip-art-alligator-png-image-5a719dac969735.9604999015173953726168.89dfe8f4c6457b2d6a6a.png",
     "index.html": "/Crocodile_game/index.html",
-    "main.f8bf7fa2.css.map": "/Crocodile_game/static/css/main.f8bf7fa2.css.map",
-    "main.8202a6ad.js.map": "/Crocodile_game/static/js/main.8202a6ad.js.map"
+    "main.a15b33ae.css.map": "/Crocodile_game/static/css/main.a15b33ae.css.map",
+    "main.d23029d5.js.map": "/Crocodile_game/static/js/main.d23029d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8bf7fa2.css",
-    "static/js/main.8202a6ad.js"
+    "static/css/main.a15b33ae.css",
+    "static/js/main.d23029d5.js"
   ]
 }
