@@ -92,7 +92,7 @@ h1 {
 
   }
 
-  /* .btn {
+  .btn {
     font-size: 4vw;
     color: #e1e1e1;
     font-family: inherit;
@@ -105,7 +105,7 @@ h1 {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: color;
-  } */
+  }
 
   .btn_active {
     font-size: 4vw;
@@ -212,4 +212,31 @@ h1 {
    
    button:active {
     transform: scale(0.9);
+   }
+
+
+   /* Help words */
+   .block {
+    display: flex;
+    align-items: flex-start;
+    width: 80vw;
+    gap: 120px;
+    flex-wrap: wrap;
+
+   }
+
+   .help_words {
+    background-color: #e1e1e12f;
+    padding: 10px;
+    width: 340px;
+   }
+
+   .help_words h3{
+    color: #07182E;
+
+   }
+
+   .help_words p{
+    color: #07182E;
+
    }
