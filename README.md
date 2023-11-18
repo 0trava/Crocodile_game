@@ -2,7 +2,7 @@
 ### CROCODILE GAME
 
 
-"Crocodile Game" is a fun and exciting game based on the classic "Charades." Players are divided into two teams, and each player takes turns choosing words to describe to their team using only English.
+"Crocodile Game" is a fun and exciting game based on the classic "Charades." Players are divided into two teams, and each player takes turns choosing words to describe to their team using only English words.
 
 The game is specially designed for practicing English language skills, suitable for both children and adults. While enjoying the game, you practice speaking skills, and the cue words for each category help you expand your vocabulary in describing objects, phenomena, and people.
 
