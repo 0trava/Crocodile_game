@@ -65,8 +65,8 @@ export const App = () => {
         <div>
         <h3>Hint words - Слова підказки</h3>
         <p><span>Sweet and sour/sweet/sour</span> -  Солодкий-кислий/солодкий/кислий</p>
-        <p><span>Твердий/м'який</span> – hard/soft</p>
-        <p><span>Гладенький/жорсткий</span> – Smooth/hard</p>
+        <p><span>Hard/soft</span> –Твердий/м'який </p>
+        <p><span>Smooth/hard</span> – Гладенький/жорсткий</p>
         <p><span>Grow in the tropics/ in the garden</span> - Ростуть в тропіках/ в саду </p>
         </div>
 
@@ -79,10 +79,10 @@ export const App = () => {
         {category === card.jobs ?
         <div className={style.help_words}>
         <h3>Hint words - Слова підказки</h3>
-        <p><span>Робота безпечна/ небезпечна</span> -  The work is safe/dangerous</p>
-        <p><span>Треба носити форму</span> – Must wear a uniform</p>
-        <p><span>Лікує/обслуговує/продає/рятує/контролює/розважає</span> – Heals/maintains/sells/rescues/controls/entertaining</p>
-        <p><span>Працює в цирку/офісі/на свіжому повітрі/лікарні</span> - Works in the circus/office/outdoors/hospital </p>
+        <p><span>The work is safe/dangerous</span> -  Робота безпечна/ небезпечна</p>
+        <p><span>Must wear a uniform</span> – Треба носити форму</p>
+        <p><span>Heals/maintains/sells/rescues/controls/entertaining</span> – Лікує/обслуговує/продає/рятує/контролює/розважає</p>
+        <p><span>Works in the circus/office/outdoors/hospital</span> - Працює в цирку/офісі/на свіжому повітрі/лікарні </p>
 
         <button onClick={pickRandomCard}>
           <span className={style.text}>Lets go...</span>
