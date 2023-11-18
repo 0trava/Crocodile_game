@@ -81,7 +81,7 @@ export const App = () => {
         <h3>Hint words - Слова підказки</h3>
         <p><span>Робота безпечна/ небезпечна</span> -  The work is safe/dangerous</p>
         <p><span>Треба носити форму</span> – Must wear a uniform</p>
-        <p><span>Лікує/обслуговує/продає/рятує/контролює</span> – Heals/maintains/sells/rescues/controls</p>
+        <p><span>Лікує/обслуговує/продає/рятує/контролює/розважає</span> – Heals/maintains/sells/rescues/controls/entertaining</p>
         <p><span>Працює в цирку/офісі/на свіжому повітрі/лікарні</span> - Works in the circus/office/outdoors/hospital </p>
 
         <button onClick={pickRandomCard}>
