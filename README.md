@@ -11,6 +11,10 @@ Players must collaborate effectively to decipher what their teammate is trying t
 
 ![image](https://github.com/0trava/Crocodile_game/assets/102797527/011baac8-72d7-492f-a4da-10969cbd1bfa)
 
+Special gestures:
+First, the player shows with his fingers how many words are guessed.
+Cross with hands means "forget".
+Circular movements of the hand or palm say that you need to select synonyms, the answer is close.
 
 ## 🌠 Initial commands:
 ```
